@@ -1,0 +1,19 @@
+.btn-more {
+  border: solid 3px #020001;
+  background: transparent;
+  padding: 21px 36px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 24px;
+}
+@media (max-width: 1440px) {
+  .btn-more {
+    padding: 10px 24px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .btn-more {
+    padding: 6px 20px;
+  }
+}

@@ -1,0 +1,228 @@
+@use "./../../scss/" as *;
+.brand-story.section {
+  background-color: $cerulean;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  .header-section {
+    .header-sub {
+      font-size: 1rem;
+    }
+  }
+}
+.brand-story {
+  .section-button {
+    margin-top: 50px;
+    margin-bottom: 128px;
+  }
+  .line {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 77%;
+    left: 0;
+    background-color: $black-two;
+    z-index: -4;
+  }
+}
+.img-brand {
+  width: 100%;
+  height: auto;
+}
+.brand-story-content {
+  position: absolute;
+  max-width: 100%;
+  width: 30%;
+  max-height: 100%;
+  left: 51.6%;
+  top: 45.1%;
+  z-index: 1;
+}
+.brand-story-text {
+  h2 {
+    font-size: 25px;
+    color: $black-three;
+  }
+  p {
+    margin-top: 32px;
+    margin-bottom: 44px;
+    font-family: "Noto Sans KR";
+    line-height: 1.88;
+    font-size: 1rem;
+  }
+}
+.object1 {
+  position: absolute;
+  top: 19.1%;
+  left: 8.8%;
+  z-index: -1;
+  width: 9.5%;
+}
+
+.object2 {
+  position: absolute;
+  width: 7.7%;
+  top: 6.4%;
+  right: 13.3%;
+  z-index: -2;
+}
+.object3 {
+  position: absolute;
+  top: 9.7%;
+  right: 8.9%;
+  z-index: -2;
+  width: 7.7%;
+}
+
+.object4 {
+  position: absolute;
+  height: 47.8%;
+  left: 89.7%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -2;
+}
+.object5 {
+  position: absolute;
+  width: 18.2%;
+  left: 81.8%;
+  top: 60%;
+  z-index: -1;
+}
+.object6 {
+  width: 10%;
+  position: absolute;
+  top: 43.4%;
+  left: 0;
+  height: 35.4%;
+  object-fit: cover;
+  z-index: -1;
+}
+.object7 {
+  position: absolute;
+  top: 52%;
+  left: 9.9%;
+  width: 9.4%;
+  z-index: -1;
+}
+
+@media (max-width: 1600px) {
+  .brand-story-content {
+    width: 36%;
+  }
+  .brand-story-text {
+    p {
+      margin-top: 20px;
+      margin-bottom: 32px;
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .brand-story-content {
+    width: 34%;
+  }
+  .brand-story-text {
+    p {
+      margin-top: 10px;
+      margin-bottom: 22px;
+    }
+  }
+}
+
+@media (max-width: 1260px) {
+  .brand-story-content {
+    top: 45.1%;
+    width: 36%;
+    .btn-more {
+      font-size: 1rem;
+    }
+  }
+  .brand-story-text {
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 0.8rem;
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .brand-story-content {
+    top: 47.1%;
+    width: 34%;
+  }
+  .brand-story-text {
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media (max-width: 676.98px) {
+  .brand-story.section {
+    .header-section {
+      .header-sub {
+        font-size: 0.8rem;
+      }
+    }
+  }
+  .brand-story-content {
+    top: 45.1%;
+    width: 36%;
+  }
+  .brand-story-text {
+    h2 {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .brand-story-content {
+    top: 50.1%;
+    width: 38%;
+  }
+  .brand-story-text {
+    h2 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 12px;
+      margin: 4px 0;
+    }
+  }
+}
+
+@media (max-width: 516px) {
+  .brand-story-content {
+    top: 47.1%;
+    width: 38%;
+    .btn-more {
+      padding: 4px 8px;
+      font-size: 0.8rem;
+    }
+  }
+  .brand-story-text {
+    h2 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 12px;
+      margin: 4px 0;
+    }
+  }
+}
+
+@media (max-width: 416px) {
+  .brand-story-content {
+    top: 49.1%;
+  }
+}

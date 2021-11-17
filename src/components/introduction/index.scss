@@ -1,0 +1,44 @@
+@use "./../../scss/" as *;
+.introduction {
+  position: relative;
+
+  &-wrap {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  &-content {
+    color: $white;
+    max-width: 667px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .introduction {
+    &-content {
+      max-width: 540px;
+
+      .introduction-title {
+        text-transform: uppercase;
+        color: inherit;
+        font-size: 30px;
+        letter-spacing: 5px;
+        line-height: 1;
+        margin-bottom: 30px;
+      }
+      .introduction-sub {
+        font-size: 1rem;
+        color: inherit;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .introduction {
+    &-content {
+      padding-right: 15px;
+    }
+  }
+}

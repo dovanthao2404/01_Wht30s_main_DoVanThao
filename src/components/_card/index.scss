@@ -1,0 +1,35 @@
+@use "../../scss/" as *;
+
+.card {
+  cursor: pointer;
+  margin-bottom: 72px;
+}
+.card-img {
+  width: 100%;
+}
+.card-title {
+  margin: 14px 0;
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-heart {
+  color: $pumpkin-orange;
+  cursor: pointer;
+}
+.total-heart {
+  margin-left: 4px;
+}
+
+@media (max-width: 991.98px) {
+  .card {
+    margin-bottom: 48px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .card {
+    margin-bottom: 24px;
+  }
+}
